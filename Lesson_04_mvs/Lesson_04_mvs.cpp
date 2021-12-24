@@ -90,7 +90,7 @@ void task4() {
 	if(divident == 1 || divident == 0) // Проверка на случай если пользователь введет 0 или 1
 		std::cout << "This is not a prime number";
 	else {
-		for (int i = 2; i < divident; i += 2)  // Цикл проверки делителей
+		for (int i = 2; i < divident; i++)  // Цикл проверки делителей
 			if (!(divident % i)) { // Если число делится без остатка, значит есть делитель и можно прервать цикл
 				divisor = true;
 				break;
